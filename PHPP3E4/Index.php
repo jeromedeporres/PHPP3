@@ -2,18 +2,14 @@
 <html lang="fr" dir="ltr">
 <head>
     <meta charset="utf-8"/>
-    <title>PHPP3EXO04</title>
+    <title>PHPP3EXO05</title>
 </head>
     <body>
         <?php
-            $number = 1;
-            while ($number <10)
-            {
-            ?>
-            <p><?php echo $number; ?></p>
-            <?php
-                $number += $number /2;
-            }
-            ?>
+        for ($x=1; $x<15; $x++) {
+        ?>
+        <p><?php echo 'On y arrive presque.';
+        }
+        ?></P>
     </body>
 </html>
